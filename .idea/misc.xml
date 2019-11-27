@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/buy-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/buy-cart-service/pom.xml" />
         <option value="$PROJECT_DIR$/buy-comment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/buy-admin-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

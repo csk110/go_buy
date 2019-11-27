@@ -3,9 +3,20 @@ server:
 spring:
   application:
     name: buy-goods-service
-
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/buy_goods?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8000/eureka
+logging:
+  level:
+    com.buy.goods.mapper: debug
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
 

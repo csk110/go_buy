@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="buy-admin-service" />
         <module name="buy-cart-service" />
         <module name="buy-comment-service" />
         <module name="buy-gateway-server" />
@@ -20,5 +21,17 @@
     <bytecodeTargetLevel>
       <module name="buy-gateway" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="buy-admin-service" options="-parameters" />
+      <module name="buy-cart-service" options="-parameters" />
+      <module name="buy-comment-service" options="-parameters" />
+      <module name="buy-gateway-server" options="-parameters" />
+      <module name="buy-goods-service" options="-parameters" />
+      <module name="buy-order-service" options="-parameters" />
+      <module name="buy-registry" options="-parameters" />
+      <module name="buy-user-service" options="-parameters" />
+    </option>
   </component>
 </project>
