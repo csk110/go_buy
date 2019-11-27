@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="buy-cart-service" />
+        <module name="buy-comment-service" />
+        <module name="buy-gateway-server" />
+        <module name="buy-goods-interface" />
+        <module name="buy-goods-service" />
+        <module name="buy-order-service" />
+        <module name="buy-registry" />
+        <module name="buy-user-interface" />
+        <module name="buy-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="buy-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
